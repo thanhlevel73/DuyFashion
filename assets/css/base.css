@@ -1,0 +1,35 @@
+:root{  
+    --primary-color: #FF0000;
+    --white-color: #FFF;
+    --text-color:#221F20;
+    --head-color:#57585A;
+    --price-color:#A8A9AD;
+}
+*{
+    margin: 0;
+    
+}
+.grid {
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-col-5{
+    width: 18%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+   padding-left: -5px;
+   padding-right: -5px;
+}
+.grid_col-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 24.2%;
+}

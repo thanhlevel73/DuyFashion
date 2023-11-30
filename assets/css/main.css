@@ -1,0 +1,125 @@
+header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    overflow: hidden;
+    font-family: Montserrat,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+header> ul{
+    list-style: none;
+    display: flex;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+header>ul>li{
+    font-size: 18px;
+    margin: 0 10px;
+}
+header>img{
+    width: 15%;
+    cursor: pointer;
+    z-index: 1;
+    /* margin-right: 300px; */
+}
+
+header>menu{
+    margin-right: 80px;
+    font-size: 16px;
+}
+
+header>menu i{
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+article>img{
+    width: 1400px;
+    border-top-left-radius:80px;
+    border-bottom-right-radius:80px;
+}
+
+article>p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+.card{
+    display: block;
+    text-decoration: none;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin-top: 40px;
+    border-bottom-right-radius: 6px;
+    transition: all 0.3s ease-in;
+    
+}
+.card:hover{
+    transform: scale(1.10);
+    box-shadow: 16px -11px 62px 3px rgba(0,0,0,0.1);
+}
+.card>p{
+    font-size: 14px;
+    margin:10px 0 ;
+    color: var(--head-color);
+}
+
+.card>p:hover{
+    color: var(--primary-color);
+}
+
+.card>img{
+    width: 100%;
+}
+
+.card>i{
+    float: right;
+    color: var(--text-color);
+ 
+}
+
+.card_new{
+    color: var(--text-color);
+}
+
+.card_old{
+    text-decoration: line-through;
+    color: var(--price-color);
+  
+}
+
+footer{
+    border-top: 2px solid #555;
+    margin-top: 50px;
+    background-color: blanchedalmond;
+}
+footer img{
+    width: 25%;
+}
+footer p {
+    line-height: 1.9;
+}
+.logo i{
+    margin: 0 10px;
+}
+/* article>p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+} */
+
+
+footer .logo p:last-child{
+   padding: 8px 10px;
+   background-color: var(--text-color);
+   color: var(--white-color);
+   width: 180px;
+   border-radius: 20px 0;
+   margin-top: 10px;
+}
