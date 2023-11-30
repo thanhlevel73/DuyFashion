@@ -7,7 +7,7 @@
 }
 *{
     margin: 0;
-    
+    text-decoration: none;
 }
 .grid {
     width: 1400px;
